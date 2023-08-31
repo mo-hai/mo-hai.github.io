@@ -5,22 +5,22 @@
 
         <!-- General medatada -->
         <meta name="author" content="mo-hai" />
-        <meta name="title" content="mo-hai" />
-        <meta name="description" content="Personal page" />
+        <meta name="title" content="I Want To Read More Blog" />
+        <meta name="description" content="The I Want To Read More blog documents our journey building a SaaS product in the open. It explains how and why we did every step on the way." />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
         <!-- Social media tags -->
-        <meta property="og:title" content="mo-hai" />
-        <meta property="og:description" content="Personal page" />
+        <meta property="og:title" content="I Want To Read More Blog" />
+        <meta property="og:description" content="The I Want To Read More blog documents our journey building a SaaS product in the open. It explains how and why we did every step on the way." />
         <meta property="og:image" content="./images/cover-image.jpg" />
         <meta property="og:url" content="." />
         <meta property="og:site_name" content="mo-hai" />
         <meta name="twitter:site" content="@haltakov" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image:alt" content="Personal page" />
+        <meta name="twitter:image:alt" content="The I Want To Read More blog documents our journey building a SaaS product in the open. It explains how and why we did every step on the way." />
 
         <!-- Page title -->
-        <title>mo-hai</title>
+        <title>I Want To Read More Blog</title>
 
         <!-- Favicon -->
         <link rel="icon" type="image/png" href="./images/logo_16.png" sizes="16x16" />
@@ -40,6 +40,11 @@
  
         <!-- Block for additional page specific header tags -->
         <!-- prettier-ignore -->
+<style>
+    body {
+        background: #eee;
+    }
+</style>
         
     </head>
 
@@ -60,88 +65,25 @@
         </header>
 
         <!-- Page content block -->
-
-<!-- Header image and text -->
-<div class="container-fluid site-header p-0">
-    <div class="site-header-overlay">
-        <div class="container py-5">
-            <div class="row justify-content-center py-5">
-                <div class="col-sm-10">
-                    <h1 class="text-center">
-                        Hi, I’m Marina, a Data Scientist and ML Engineer based in Nederlands.
-                    </h1>
-                    <h3 class="mt-3 text-center">
-                    </h3>
-                    <h3 class="mt-4 text-center">
-                        Contact me to elevate your business with cutting-edge AI solutions. Let's turn your challenges into opportunities and make your data work for you. Lets embark on a journey of data-driven transformation!
-                    </h3>
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="container">
+    <!-- All articles in the blog -->
+    <article class="container mt-4 blog-post bg-white p-3 shadow-sm">
+        <h3>
+            <a
+                href="./projects/test-article/"
+                class="text-dark blog-post-title"
+                rel="bookmark"
+                title="Test Article"
+                >Test Article</a
+            >
+        </h3>
+        <p class="text-muted">Mon 13 July 2020 by <a href=".">mo-hai</a></p>
+        <p>
+            Some summary of the test article
+            <a href="./projects/test-article/">Read more...</a>
+        </p>
+    </article>
 </div>
-
-
-<!-- How It Works section -->
-<a name="how-it-works"></a>
-<div class="container-fluid pb-5">
-    <div class="container">
-        <h2 class="text-center py-5">Projects</h2>
-
-        <div class="row justify-content-around">
-            <div class="col-md-6 col-md-5 text-center">
-                <h4 class="mb-4">
-                    <i class="fas fa-signal mr-2"></i> <strong> Data analyses:</strong> Uncover the hidden gems within your data. I'll extract meaningful insights that drive strategic decisions.
-                </h4>
-                <h4>
-                    <i class="fas fa-wrench mr-2"></i> <strong> ML: </strong> Transform your ideas into AI-powered solutions. I design and deploy machine learning models that optimize processes, enhance decision-making, and revolutionize your operations.
-                </h4>
-            </div>
-
-            <div class="col-md-6 col-md-5 text-center">
-                <h4 class="mb-4">
-                    <i class="far fa-edit mr-2"></i> <strong> NLP:</strong> From sentiment analysis to text generation. Design ASR model for any language and more.
-                </h4>
-                <h4>
-                    <i class="fas fa-redo mr-2"></i> <strong> MLOps: </strong> Seamless integration of machine learning into your workflows is crucial. With MLOps, I ensure your models are trained, deployed, and monitored efficiently, maximizing their impact.
-                </h4>
-            </div>
-        </div>
-
-        <h2 class="text-center py-5 mt-5"></h2>
-    </div>
-</div>
-
-
-<!-- Subscribe section -->
-<a name="subscribe"></a>
-<div class="container-fluid p-5 bg-blue text-white">
-    <a name="subscribe"></a>
-    <h1 class="text-center mb-4"><strong>Contact</strong></h1>
-
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-10 col-lg-8">
-                Leave your email below and I will contact you right away!
-            </div>
-        </div>
-
-        <form class="mt-4" novalidate>
-            <div class="form-group row justify-content-center">
-                <input
-                    class="form-control col-11 col-sm-6 m-1"
-                    type="email"
-                    value=""
-                    name="EMAIL"
-                    class="required email"
-                    placeholder="E-Mail"
-                />
-                <button type="submit" class="btn btn-blue m-1">contact</button>
-            </div>
-        </form>
-    </div>
-</div>
-
 
         <!-- Footer -->
         <footer class="footer mt-auto py-3 site-footer text-center text-muted">
